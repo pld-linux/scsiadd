@@ -1,5 +1,5 @@
 Summary:	SCSI add/remove utility
-Summary(pl.UTF-8):	Narzędzia dodawania/usuwania dysków SCSI
+Summary(pl.UTF-8):	Narzędzia do dodawania/usuwania dysków SCSI
 Name:		scsiadd
 Version:	1.96
 Release:	1
@@ -12,9 +12,14 @@ BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Add and remove SCSI devices from your Linux system during runtime. No need
-to reboot your system, just because you have switched on an external
-device.
+Add and remove SCSI devices from your Linux system during runtime. No
+need to reboot your system, just because you have switched on an
+external device.
+
+%description -l pl.UTF-8
+To narzędzie umożliwia dodawanie i usuwanie urządzeń SCSI z systemu
+linuksowego podczas jego działania. Nie trzeba restartować systemu
+tylko z powodu podłączenia jakiegoś urządzenia zewnętrznego.
 
 %prep
 %setup -q
