@@ -1,12 +1,12 @@
 Summary:	SCSI add/remove utility
 Summary(pl.UTF-8):	Narzędzia do dodawania/usuwania dysków SCSI
 Name:		scsiadd
-Version:	1.96
+Version:	1.97
 Release:	1
 License:	GPL v2+
 Group:		Applications/System
 Source0:	http://llg.cubic.org/tools/%{name}-%{version}.tar.gz
-# Source0-md5:	c2d30bc6893852ad2f9dd616cdbee0be
+# Source0-md5:	15d3a73411540a40cb1f6d5a97749991
 BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
